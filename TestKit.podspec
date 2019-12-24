@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name         = "TestKit"
-  s.version      = "1.0"
-  s.platform     = :ios, "13.0"
+  s.version      = "1.2"
+  s.platform     = :ios, "11.0"
   s.summary      = "A short description of TestKit."
   s.description  = <<-DESC
   A TestKit is testing framework
