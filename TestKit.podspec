@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TestKit"
-  s.version      = "1.2"
+  s.version      = "1.3"
   s.platform     = :ios, "11.0"
   s.summary      = "A short description of TestKit."
   s.description  = <<-DESC
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.author       = { "Evgeniy Momotov" => "jn8momotov@gmail.com" }
   # s.source       = { :path => '.' }
   s.source       = { :git => "https://github.com/jn8momotov/TestKit.git", :tag => "#{s.version}" }
-  s.source_files  = "TestKit"
+  s.source_files  = "TestKit/Source/**/*.{swift}"
+  s.framework     = "UIKit"
   s.swift_version = "4.2" 
 end
